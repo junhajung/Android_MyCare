@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="home" />
+
+    <item android:title="vitamin">
+        <menu>
+            <item
+                android:id="@+id/eyes"
+                android:icon="@drawable/eyes"
+                android:title="eyes"/>
+            <item
+                android:id="@+id/stomach"
+                android:icon="@drawable/stomach"
+                android:title="stomach"/>
+            <item
+                android:id="@+id/lungs"
+                android:icon="@drawable/lungs"
+                android:title="lungs"/>
+            <item
+                android:id="@+id/brain"
+                android:icon="@drawable/brain"
+                android:title="brain"/>
+
+        </menu>
+    </item>
+
+</menu>
